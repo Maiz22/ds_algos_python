@@ -17,5 +17,4 @@ def dfs(graph:Graph, root) -> list:
         for node in graph.adj_list[current]:
             if node not in visited:
                 stack.append(node)
-                visited.append(node)
     return result
