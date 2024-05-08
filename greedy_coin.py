@@ -1,6 +1,6 @@
 def greedy_coin(amount:int, coins:list) -> tuple:
     """
-    Algorithm taking a amound to pay and a list of avaiblable coins.
+    Algorithm taking the amount to pay and a list of avaibable coins.
     Returns the total number of coins and the list of coins 
     needed to match the amount.
     """
