@@ -17,6 +17,7 @@ def binary_search(arr:list, target:int) -> int:
 
     return -1
 
+#Every iteration reduces our input n by half. Time complexity --> O(log(n))
 
 if __name__ == "__main__":
     arr1 = [1, 2, 5, 6, 7, 9, 10, 12, 15]
